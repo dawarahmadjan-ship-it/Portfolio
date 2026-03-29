@@ -1,4 +1,4 @@
-import { clientsData } from "@/db/clients";
+// import { clientsData } from "@/db/clients";
 import { allVideoProjects } from "@/db/projects";
 import { Client, VideoProject } from "@/types/videos";
 
@@ -83,7 +83,7 @@ export function getFeaturedProjects(limit = 6): VideoProject[] {
 }
 
 export function getClients(): Client[] {
-  return clientsData;
+  return [];
 }
 
 // Helper function to get the proper embed link
